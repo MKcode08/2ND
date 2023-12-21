@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .traffic-light {
+    width: 100px;
+    display: flex;
+    background-color: #333;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .light {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: #ccc;
+    transition: background-color 1s ease;
+  }
+  
+  .red { background-color: #ff5555; }
+  .yellow { background-color: #ffff55; }
+  .green { background-color: #55ff55; }
+  
+  .controls {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #ffffff;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
